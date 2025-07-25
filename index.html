@@ -6,12 +6,17 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+    <script src="script.js" defer></script>
+
+    
 </head>
 <body>
+
      <!-- Header -->
     <header class="header fade-in">
         <div class="container">
-            <h1>Harri Fano</h1>
+            <h1 class="name"></h1>
             <p>Transitioning to Tech</p>
             <div class="social-links">
                 <a href="mailto:your.email@example.com">Email</a>
@@ -20,6 +25,7 @@
             </div>
         </div>
     </header>
+
     <!--Project Section-->
     <section class="projects">
         <div class="container">
@@ -31,10 +37,10 @@
                     <h3>E-Commerce Platform</h3>
                     <p>A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard. Built with modern technologies and optimized for performance.</p>
                     <div class="tech-stack">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">HTML5/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">JAVA</span>
+                        <span class="tech-tag">MySQL</span>
                     </div>
                     <a href="#" class="project-link">View Project →</a>
                 </div>
@@ -44,10 +50,9 @@
                     <h3>Task Management App</h3>
                     <p>A collaborative task management application with real-time updates, team workspaces, and advanced filtering capabilities. Designed for productivity and ease of use.</p>
                     <div class="tech-stack">
-                        <span class="tech-tag">Vue.js</span>
-                        <span class="tech-tag">Firebase</span>
-                        <span class="tech-tag">CSS</span>
-                        <span class="tech-tag">PWA</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">PostgreSQL</span>
                     </div>
                     <a href="#" class="project-link">View Project →</a>
                 </div>
@@ -57,10 +62,10 @@
                     <h3>AI Content Generator</h3>
                     <p>An intelligent content generation tool that leverages machine learning to create high-quality written content. Features custom templates and tone adjustments.</p>
                     <div class="tech-stack">
-                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Springboot</span>
                         <span class="tech-tag">OpenAI</span>
-                        <span class="tech-tag">Flask</span>
-                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">PostgreSQL</span>
                     </div>
                     <a href="#" class="project-link">View Project →</a>
                 </div>
@@ -69,6 +74,36 @@
         </div>
     </section>
 
-    
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m an aspiring full-stack developer, learning to build web apps with HTML5, JavaScript, and React on the front end, plus Java and Spring Boot on the back end. I’ve started working with MySQL and PostgreSQL for databases, and I’m exploring AWS for deployment. Although I’m still deepening my skills in each technology, I love tackling small projects to turn ideas into simple, working solutions.</p>
+                    <p>When I’m not coding, you’ll find me following tutorials, experimenting with mini-apps, or asking questions on forums as I grow my knowledge.</p>
+                    
+                    <h3>Skills & Technologies</h3>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">Javascript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Springboot</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+                
+                <div class="contact-box">
+                    <h3>Let's Connect</h3>
+                    <p>Always open to discussing new opportunities and interesting projects.</p>
+                    <a href="mailto:your.email@example.com" class="contact-btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
